@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="bg-[#07332F]">
 
             <div className="hero max-w-screen-lg p-24">
-                <div className="hero-content flex ">
+                <div className="hero-content flex flex-col lg:flex-row">
                     <div className='lg:w-1/2  p-4'>
                         <div>
                             <h3 className="text-5xl text-white font-bold">Your Best Medical <br /> Help Center</h3>
