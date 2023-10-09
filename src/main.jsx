@@ -7,13 +7,21 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Main from './Components/Layout/Main';
+import AboutMe from './Components/AboutMe/AboutMe';
 
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>
+    element: <Main></Main>,
+    children:[
+      {
+        path:'aboutme',
+        element:<AboutMe></AboutMe>
+      }
+
+    ]
   },
 ]);
 

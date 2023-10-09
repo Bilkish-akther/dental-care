@@ -18,114 +18,77 @@ const Contact = () => {
         
       </div>
 
-      <div className="rounded-lg bg-white p-8  lg:col-span-3 lg:p-12">
+      <div className="rounded-lg bg-[#07332F] p-8  lg:col-span-3 lg:p-12">
         <form action="" className="space-y-4">
-          <div>
-            <label className="sr-only" >Name</label>
-            <input
-              className="w-full rounded-lg border-gray-200 p-3 text-sm"
-              placeholder="Name"
-              type="text"
-              id="name"
-            />
-          </div>
+        
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <label className="sr-only" >Email</label>
+              <label className="sr-only" >Name</label>
               <input
                 className="w-full rounded-lg border-gray-200 p-3 text-sm"
-                placeholder="Email address"
+                placeholder="Name"
                 type="email"
                 id="email"
               />
             </div>
 
             <div>
-              <label className="sr-only" >Phone</label>
+              <label className="sr-only" >Email</label>
               <input
                 className="w-full rounded-lg border-gray-200 p-3 text-sm"
-                placeholder="Phone Number"
+                placeholder="Email"
+                type="tel"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div>
+              <label className="sr-only" >Mobail Number</label>
+              <input
+                className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Mobail Number"
+                type="email"
+                id="email"
+              />
+            </div>
+
+            <div>
+              <label className="sr-only" >Doctor Name</label>
+              <input
+                className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Doctor Name"
                 type="tel"
                 id="phone"
               />
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
+              <label className="sr-only" >Date</label>
               <input
-                className="peer sr-only"
-                id="option1"
-                type="radio"
-                
-                name="option"
+                className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Date"
+                type="email"
+                id="email"
               />
-
-              <label
-               
-                className="block w-full rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black peer-checked:border-black peer-checked:bg-black peer-checked:text-white"
-                
-              >
-                <span className="text-sm"> Option 1 </span>
-              </label>
             </div>
 
             <div>
+              <label className="sr-only" >Time</label>
               <input
-                className="peer sr-only"
-                id="option2"
-                type="radio"
-              
-                name="option"
+                className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Time"
+                type="tel"
+                id="phone"
               />
-
-              <label
-                
-                className="block w-full rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black peer-checked:border-black peer-checked:bg-black peer-checked:text-white"
-                
-              >
-                <span className="text-sm"> Option 2 </span>
-              </label>
             </div>
-
-            <div>
-              <input
-                className="peer sr-only"
-                id="option3"
-                type="radio"
-               
-                name="option"
-              />
-
-              <label
-                
-                className="block w-full rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black peer-checked:border-black peer-checked:bg-black peer-checked:text-white"
-               
-              >
-                <span className="text-sm"> Option 3 </span>
-              </label>
-            </div>
-          </div>
-
-          <div>
-            <label className="sr-only">Message</label>
-
-            <textarea
-              className="w-full rounded-lg border-gray-200 p-3 text-sm"
-              placeholder="Message"
-              rows="8"
-              id="message"
-            ></textarea>
           </div>
 
           <div className="mt-4">
-            <button
-              type="submit"
-              className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
-            >
-              Send Enquiry
-            </button>
+          <button className="px-2 py-2 w-full text-white bg-[#F7A582]">Buy Now</button>
           </div>
         </form>
       </div>
