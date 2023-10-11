@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,17 +7,34 @@ import {
 import "./index.css";
 import Main from './Components/Layout/Main';
 import AboutMe from './Components/AboutMe/AboutMe';
-
-
+import Appointment from './Components/Appoinment/Appointment';
+import Login from './Components/Login/Login';
+import Home from './Components/Home/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+
+  
     children:[
+
+      {
+        path:'/',
+        element:<Home></Home>
+
+      },
       {
         path:'aboutme',
         element:<AboutMe></AboutMe>
+      },
+      {
+        path:'appointment',
+        element: <Appointment></Appointment>
+      },
+      {
+        path: 'login',
+        element: <Login></Login>
       }
 
     ]
