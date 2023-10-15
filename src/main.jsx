@@ -10,6 +10,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Appointment from './Components/Appoinment/Appointment';
 import Login from './Components/Login/Login';
 import Home from './Components/Home/Home';
+import SignUp from './Components/SignUp/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: 'login',
         element: <Login></Login>
+      },
+      {
+        path:'signup',
+        element: <SignUp></SignUp>
       }
 
     ]
