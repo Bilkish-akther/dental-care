@@ -1,5 +1,5 @@
 import service1 from '../../assets/Service1.png'
-import service2 from '../../assets/Service2.png'
+import service2 from '../../assets/equipement.jpg'
 
 const Service = () => {
     return (
@@ -15,7 +15,7 @@ const Service = () => {
                     <button type="button" className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Pink to Orange</button>
                     <button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Teal to Lime</button>
                     <button type="button" className="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Red to Yellow</button>
-                    <img  src={service2} alt="" />
+                    <img className='w-full' src={service2} alt="" />
 
                     <h3 className='text-3xl font-semibold'>Electro  Gastrology Therapy</h3>
 

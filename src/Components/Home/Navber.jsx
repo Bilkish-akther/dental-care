@@ -12,7 +12,7 @@ const Navber = () => {
           <Link href="" className="flex items-center">
 
             <img src="https://i.ibb.co/zmFKqSB/Group-1.png" className="h-8 mr-3 ms-2" alt="" />
-            <h3 className="text-lg flex gap-1"> <span className="text-[#F7A582]">Dental</span> Care</h3>
+            <h3 className="text-lg flex gap-1"> <span className="text-[#F7A582]">LifeBalance</span> Lab</h3>
           </Link>
 
           <div className="text-right mx-96 mt-8   hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
