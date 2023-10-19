@@ -1,0 +1,16 @@
+.appcontainer {
+    background-image: url('../../assets/appointment/landing-bg.png');
+    height: max-content;
+
+
+}
+
+.appImg {
+ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+
+
+}
