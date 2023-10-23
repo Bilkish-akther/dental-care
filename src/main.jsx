@@ -11,6 +11,7 @@ import Appointment from './Components/Appoinment/Appointment';
 import Login from './Components/Login/Login';
 import Home from './Components/Home/Home';
 import SignUp from './Components/SignUp/SignUp';
+import Error from './Components/Error/Error';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path:'signup',
         element: <SignUp></SignUp>
+      },
+      {
+        path: 'error',
+        element:<Error></Error>
       }
 
     ]
