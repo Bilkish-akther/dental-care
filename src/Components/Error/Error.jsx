@@ -13,7 +13,7 @@ const Error = () => {
                 <div className="text-center mt-5">
                    <img src={error} alt="" />
                    <Link to='/'>
-                       <button className="bg-[#F7A582] text-white mt-5 py-2 px-6 text-center">Back to home</button>
+                       <button className="bg-[#F7A582] text-white mt-5 py-2 px-10 text-center">Back to home</button>
                    </Link>
                 </div>              
             </section>
